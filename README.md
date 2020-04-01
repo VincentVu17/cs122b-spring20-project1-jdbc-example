@@ -39,7 +39,8 @@ This example shows how a Java program can use JDBC to connect with MySQL.
     ```
  - exit and re-login mysql with test user, with the password you created:
     ```
-    mysql> mysql -u mytestuser -p
+    mysql> quit
+    local> mysql -u mytestuser -p
     ```
  - verify you can access data:    
     ```
