@@ -36,8 +36,9 @@ select * from stars;
 
 To import project into Intellij and run within Intellij:
 
-4. Open Intellij -> Open -> Choose the project you just clone (The root path mush contain the pom.xml!) -> Finish
-6. To run JDBC1.java, JDBC2.java, click Run on the right corner
+4. Open Intellij -> Open -> Choose the project you just clone (The root path mush contain the pom.xml!) -> The Intellij wll load automatically
+5. If the system asks you to import MAVEN modules using the tooltip, just click on import modules
+6. To run JDBC1.java, JDBC2.java, click Run on the right corner, then you will successfully see the results
 
 Altenatively, to run the Java program within command line:
 
