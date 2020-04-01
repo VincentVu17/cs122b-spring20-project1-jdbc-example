@@ -36,7 +36,7 @@ select * from stars;
 
 To import project into Intellij and run within Intellij:
 
-4. Open Intellij -> Open -> Choose the project you just clone (The root path mush contain the pom.xml!) -> The Intellij wll load automatically
+4. Open Intellij -> Import Project -> Choose the project you just clone (The root path mush contain the pom.xml!) -> Choose import from existing modules -> choose Maven -> Click on Finish -> The Intellij wll load automatically
 5. If the system asks you to import MAVEN modules using the tooltip, just click on `import changes`
 6. If the Intellij shows `Project SDK is not defined`, that may because your Intellij doesn't have default SDK, so just click on `Setup SDK` and wait for a while
 6. To run JDBC1.java, JDBC2.java, click Run on the right corner, then you will successfully see the results
