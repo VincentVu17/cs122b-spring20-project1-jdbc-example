@@ -34,9 +34,9 @@ use testdb;
 select * from stars;
 ```
 
-To import project into Eclipse and run within Eclipse:
+To import project into Intellij and run within Intellij:
 
-4. Open Eclipse -> File -> import -> under "Maven" -> "Existing Maven Projects" -> Click "Next".
+4. Open Intellij -> File -> import -> under "Maven" -> "Existing Maven Projects" -> Click "Next".
 5. For "Root Directory", click "Browse" and select this repository's folder. Click "Finish".
 6. To run JDBC1.java, JDBC2.java, click Run -> Run as -> Java Application.
 
