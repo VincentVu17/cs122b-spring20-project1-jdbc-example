@@ -1,6 +1,8 @@
 //JDBC Example - deleting a record
 
-import java.sql.*; // Enable SQL processing
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.Statement;
 
 public class JDBC2 {
     public static void main(String[] arg) throws Exception {
@@ -8,7 +10,7 @@ public class JDBC2 {
         Class.forName("com.mysql.jdbc.Driver").newInstance();
 
         // Connect to the test database
-        Connection connection = DriverManager.getConnection("jdbc:"+Parameters.dbtype+":///"+Parameters.dbname+"?autoReconnect=true&useSSL=false",
+        Connection connection = DriverManager.getConnection("jdbc:" + Parameters.dbtype + ":///" + Parameters.dbname + "?autoReconnect=true&useSSL=false",
                 Parameters.username, Parameters.password);
 
         if (connection != null) {
