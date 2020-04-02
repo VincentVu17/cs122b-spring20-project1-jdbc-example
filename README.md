@@ -22,8 +22,8 @@ This example shows how a Java program can use JDBC to connect with MySQL.
 
  - create a testdb:
     ```
-    mysql> create database testdb;
-    mysql> use testdb;
+    mysql> create database moviedbexample;
+    mysql> use moviedbexample;
     mysql> create table stars(
                id varchar(10) primary key,
                name varchar(100) not null,
@@ -44,16 +44,16 @@ This example shows how a Java program can use JDBC to connect with MySQL.
     ```
  - verify you can access data:    
     ```
-    mysql> use testdb;
+    mysql> use moviedbexample;
     mysql> select * from stars;
     ```
 
-### To import project into Intellij and run within Intellij:
+### To import project into IntelliJ and run within IntelliJ:
 
-1. Open Intellij -> Import Project -> Choose the project you just clone (The root path mush contain the pom.xml!) -> Choose Import project from existing sources -> choose `Maven` -> Click on Finish -> The Intellij wll load automatically
+1. Open IntelliJ -> Import Project -> Choose the project you just cloned (The root path must contain the pom.xml!) -> Choose Import project from external model -> choose `Maven` -> Click on Finish -> The IntelliJ will load automatically
 2. If the system asks you to import MAVEN modules using the tooltip, just click on `import changes`
-3. If the Intellij shows `Project SDK is not defined`, that may because your Intellij doesn't have default SDK, so just click on `Setup SDK` and choose your JDK.
-4. To run JDBC1.java, JDBC2.java, click Run on the right corner, then you will successfully see the results
+3. If the IntelliJ shows `Project SDK is not defined`, that may because your IntelliJ doesn't have default SDK, so just click on `Setup SDK` and choose your JDK.
+4. To run JDBC1.java, JDBC2.java, click Run on the right corner, then you will successfully see the results.
 
 ### Alternatively, to run the Java program within command line:
 

@@ -1,6 +1,6 @@
 public interface Parameters {
     String dbtype = "mysql";
-    String dbname = "testdb";
+    String dbname = "moviedbexample";
     String username = "mytestuser";
     String password = "mypassword";
 
